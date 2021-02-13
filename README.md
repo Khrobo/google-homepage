@@ -1,1 +1,0 @@
-First google page. Learned how to center specific elements as well as using the importance of parent and child elements. Keeping the text at the left and right most side of the page which was used with a simple float.
