@@ -1,0 +1,118 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+.containern ul {
+    margin-top: 20px;
+    position: relative;
+    top: 0;
+}
+
+.containern ul li a[id="store"],
+a[id="images"] {
+    margin-left: 20px;
+}
+
+.align {
+    float: right;
+}
+.align li a[id="gmail"],
+a[id="images"] {
+    position: relative;
+    left: -1em;
+    bottom: 3.5em;
+}
+.align button {
+    position: relative;
+    bottom: 4.8em;
+}
+#boot {
+    position: relative;
+    left: 14.5em;
+    top: 1em;
+    margin: auto;
+}
+.centerimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    position: relative;
+    left: 6em;
+}
+button {
+    height: 30px;
+    opacity: 0.9;
+    background: whitesmoke;
+    border: 0px;
+    padding: 8px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 12em;
+}
+.button {
+    float: right;
+    width: 5em;
+    height: 2.5em;
+    background: #4285F4;
+    border: 0px;
+    color: white;
+    position: relative;
+    bottom: 43px;
+    margin: none;
+}
+.containern li, a {
+    display: inline;
+    text-decoration: none;
+    color: inherit;
+}
+.containern a:hover {
+    text-decoration: underline;
+}
+form {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+form input {
+    width: 400px;
+    border-radius: 30px;
+    height: 30px;
+    border: 1px solid lightgray;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    background: gainsboro;
+    opacity: 0.9;
+    text-align: center;
+    width: 100%;
+    left: 0;
+}
+.containerf ul {
+    list-style-type: none;
+    padding:5px;
+}
+.containerf li {
+    display: inline;
+}
+.containerf a[id="advert"],
+a[id="business"], a[id="how"] {
+    float: left;
+    margin-left: 9px;
+}
+.containerf a[id="carbon"] {
+    text-align: center;
+}
+.containerf a[id="privacy"],
+a[id="terms"], a[id="settings"] {
+    float: right;
+    margin-right: 9px;
+}
+.containerf a:hover {
+    text-decoration: underline;
+}
